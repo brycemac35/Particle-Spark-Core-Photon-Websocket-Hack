@@ -28,13 +28,17 @@
   <preference name="orientation" value="default" />
   <preference name="fullscreen" value="true" />
 
-
+ <access origin="*"/>
+    
+  <!--  <access origin="https://bryce-quickie-photon-brycemac.c9users.io/" subdomains="true" />   -->
 
   <!-- Android only -->
 
   <preference name="android-installLocation" value="auto" />
   
-    <access origin="https://bryce-quickie-photon-brycemac.c9users.io/" subdomains="true" />
+    
+      
+    
   <!-- Android SDK versions 4.0=14  4.4=19,    5.1=22,  6.0=23,   7.0=24  -->
   
   
